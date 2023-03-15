@@ -1,0 +1,57 @@
+
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HMY Online Learning-index </title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="Icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<div id="wrapper">
+  <header> 
+    <h1> 
+      <img src="img/logo.png" width="100" height="100" id="logo" alt="logo">   
+      HMY 在线学习网站       
+    </h1>    
+    <ul class="header-note">
+        <?php 
+          include_once("header.php")
+        ?>
+    </ul>  
+  </header> 
+
+  <nav>
+  <ul>
+    <li><a href="index.php">主页</a></li>
+    <li><a href="about us.php">关于我们</a></li>
+    <li><a href="newsletters.php">公告信息</a></li>
+    <li><a href="courses.php">课程信息</a></li>
+    <li><a href="homework.php">作业测试</a></li>    
+    <li><a href="contact.php">联系我们</a></li>
+    <li><a href="log in.html">登录注册</a></li>
+  </ul>
+  </nav>
+
+  <main>
+      <img src="img/index.png" width="350" height="355" id="floatright" alt="index">
+            
+      <a href="courses.php#html5"> <h2> HTML5 教程介绍 </h2> </a>
+      <p>  HTML5 是下一代 HTML 标准。HTML , HTML 4.01的上一个版本诞生于 1999 年。
+          自从那以后，Web 世界已经经历了巨变。HTML5 仍处于完善之中。然而，大部分现代浏览器已经具备了某些 HTML5 支持。  </p>
+      <a href="4.courses.php#css"> <h2> CSS 教程介绍 </h2> </a>
+      <p> CSS 指层叠样式表 (Cascading Style Sheets)通过使用 CSS 我们可以大大提升网页开发的工作效率！</p> 
+      <p> 在我们的 CSS 教程中，您会学到如何使用 CSS 同时控制多重网页的样式和布局。 </p>
+    	<a href="courses.php#php"> <h2> PHP 教程介绍 </h2> </a>
+      <p> PHP（全称：PHP：Hypertext Preprocessor，即"PHP：超文本预处理器"）是一种通用开源脚本语言。
+          PHP 脚本在服务器上执行。PHP 可免费下载使用。</p>
+      <a href="courses.php#sql" > <h2> My SQL 教程介绍 </h2> </a>
+     	<p> MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的 RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。
+         在本教程中，会让大家快速掌握 MySQL 的基本知识，并轻松使用 MySQL 数据库。 </p>
+  </main>
+  
+  <footer> HMY Copyright &copy; 2021 </footer>
+</div>
+</body>
+</html>
